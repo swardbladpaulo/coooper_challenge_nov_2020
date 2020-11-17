@@ -31,4 +31,3 @@ module CooperApi
     end
   end
 end
- 
