@@ -5,7 +5,7 @@ RSpec.describe 'POST /api/v1/auth', type: :request do
     before do
       post '/api/v1/auth',
           params: {
-            email: 'example@craftacademy.se',
+            email: 'user@mail.com', #example@craftacademy.se
             password: 'password',
             password_confirmation: 'password'
           },
